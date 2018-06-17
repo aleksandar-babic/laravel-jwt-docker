@@ -34,7 +34,7 @@ docker exec -it nginx-php php /app/artisan jwt:secret
 ```
 > If everything went well, your app will be live on http://localhost (port 80)
 
-As we are using volume to map `./src` to `/app` in container, all changes in host source file will be immediately visible in container.
+As we are using volume to map `./src` to `/app` in container, all changes in host source files will be immediately visible in container.
 
 # How can I access nginx or mariadb?
 
