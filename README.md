@@ -28,6 +28,7 @@ Docker related files :
 
 All that you need to do first time starting app is :
 ```
+cp src/.env.example src/.env
 docker-compose up -d
 docker exec -it nginx-php php /app/artisan key:generate
 docker exec -it nginx-php php /app/artisan jwt:secret
